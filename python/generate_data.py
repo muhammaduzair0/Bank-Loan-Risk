@@ -83,3 +83,8 @@ for lid, cid in zip(loan_ids, customer_ids):
 
 loans_df = pd.DataFrame(loans)
 
+# Save
+customers_df.to_csv(OUT / "customers.csv", index=False)
+loans_df.to_csv(OUT / "loans.csv", index=False)
+
+print(f"Generated {len(customers_df)} customers and {len(loans_df)} loans to {OUT.resolve()}")
