@@ -58,3 +58,7 @@ for lid, cid in zip(loan_ids, customer_ids):
     credit_history = random.choices(credit_hist, weights=[0.2, 0.8])[0]
     prop = random.choices(property_area, weights=[0.5, 0.3, 0.2])[0]
 
+    # approval chance influenced by credit_history and income
+    approve_prob = 0.6 + 0.25*credit_history - (0.00001*max(0, 20000 - cust.applicant_income))
+    status = "Y" if random.random() < max(0.25, min(approve_prob, 0.95)) else "N"
+
