@@ -62,3 +62,24 @@ for lid, cid in zip(loan_ids, customer_ids):
     approve_prob = 0.6 + 0.25*credit_history - (0.00001*max(0, 20000 - cust.applicant_income))
     status = "Y" if random.random() < max(0.25, min(approve_prob, 0.95)) else "N"
 
+    # default if approved: small chance influenced by dependents and low credit_history
+    if status == "Y":
+        default_prob = 0.12 + (0.05 if cust.dependents in ["2", "3+"] else 0)
+        defaulted = "Y" if random.random() < default_prob else "N"
+    else:
+        defaulted = "N"
+
+    
+    loans.append({
+        "loan_id": lid,
+        "customer_id": cid,
+        "loan_amount": loan_amount,
+        "loan_amount_term": loan_term,
+        "credit_history": credit_history,
+        "property_area": prop,
+        "loan_status": status,
+        "defaulted": defaulted
+    })
+
+loans_df = pd.DataFrame(loans)
+
