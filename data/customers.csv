@@ -1,0 +1,501 @@
+customer_id,gender,married,dependents,education,self_employed,applicant_income,coapplicant_income,loan_history_flag
+C0001,Male,Yes,1,Graduation,No,23608,0,0
+C0002,Female,Yes,3+,Graduation,No,24212,0,1
+C0003,Female,Yes,2,Not Graduate,No,27107,8485,0
+C0004,Male,Yes,1,Not Graduate,No,22693,0,0
+C0005,Male,No,1,Not Graduate,No,9557,6812,1
+C0006,Male,Yes,2,Graduation,No,29224,0,1
+C0007,Male,Yes,1,Not Graduate,No,5750,3107,0
+C0008,Male,Yes,2,Not Graduate,No,24765,0,1
+C0009,Male,No,0,Graduation,No,16245,0,1
+C0010,Male,Yes,0,Graduation,No,16056,10543,1
+C0011,Female,No,2,Not Graduate,No,27965,11315,0
+C0012,Male,No,2,Graduation,Yes,12482,3119,0
+C0013,Female,Yes,1,Not Graduate,No,8885,0,0
+C0014,Male,No,2,Not Graduate,Yes,27035,11713,1
+C0015,Male,Yes,3+,Graduation,No,16190,4505,0
+C0016,Male,No,0,Graduation,Yes,4066,0,1
+C0017,Male,Yes,3+,Not Graduate,No,5547,14491,0
+C0018,Female,Yes,2,Graduation,Yes,21225,0,0
+C0019,Male,Yes,2,Not Graduate,Yes,22226,2131,1
+C0020,Female,No,2,Not Graduate,No,25619,0,0
+C0021,Male,No,3+,Not Graduate,Yes,8400,0,0
+C0022,Male,Yes,3+,Graduation,Yes,5128,0,0
+C0023,Female,Yes,3+,Not Graduate,Yes,27674,0,1
+C0024,Male,No,1,Not Graduate,Yes,14835,0,1
+C0025,Female,Yes,0,Graduation,No,26373,3973,0
+C0026,Female,Yes,0,Graduation,Yes,16949,5651,0
+C0027,Female,No,1,Graduation,Yes,5241,10360,1
+C0028,Male,Yes,3+,Graduation,Yes,12037,9304,0
+C0029,Female,No,3+,Graduation,Yes,7272,0,0
+C0030,Female,Yes,3+,Graduation,No,15085,7125,1
+C0031,Male,No,0,Graduation,No,17085,0,0
+C0032,Male,No,1,Not Graduate,No,12736,0,1
+C0033,Female,Yes,1,Not Graduate,No,5064,9972,0
+C0034,Female,Yes,2,Graduation,No,4382,14481,0
+C0035,Female,No,0,Graduation,No,20776,1668,1
+C0036,Female,No,2,Graduation,Yes,16278,0,0
+C0037,Female,Yes,2,Not Graduate,No,6317,0,0
+C0038,Female,Yes,3+,Graduation,Yes,6219,0,0
+C0039,Male,Yes,0,Graduation,Yes,7032,0,0
+C0040,Female,No,2,Graduation,Yes,27633,10459,0
+C0041,Male,Yes,0,Not Graduate,No,17981,11355,1
+C0042,Male,No,0,Graduation,Yes,6896,0,1
+C0043,Female,Yes,0,Graduation,No,11711,0,0
+C0044,Male,Yes,2,Not Graduate,Yes,29962,14837,1
+C0045,Male,Yes,3+,Graduation,No,10290,2347,1
+C0046,Female,No,3+,Not Graduate,Yes,18304,0,1
+C0047,Male,Yes,0,Not Graduate,No,22947,11479,1
+C0048,Male,Yes,2,Not Graduate,No,23738,0,0
+C0049,Male,Yes,2,Graduation,No,19758,0,0
+C0050,Male,Yes,3+,Graduation,No,10460,0,0
+C0051,Female,Yes,2,Not Graduate,No,1890,0,0
+C0052,Male,No,2,Graduation,No,23272,0,1
+C0053,Female,No,1,Not Graduate,Yes,22886,0,1
+C0054,Male,No,0,Graduation,No,27481,10261,0
+C0055,Female,Yes,0,Not Graduate,No,12511,11934,0
+C0056,Male,Yes,1,Not Graduate,Yes,25759,0,0
+C0057,Male,No,2,Graduation,No,10967,0,0
+C0058,Female,No,0,Graduation,No,27226,0,1
+C0059,Female,Yes,2,Graduation,No,6720,0,1
+C0060,Female,No,0,Not Graduate,Yes,15967,0,1
+C0061,Male,No,3+,Graduation,Yes,2529,0,1
+C0062,Female,No,2,Graduation,Yes,17119,0,0
+C0063,Female,Yes,0,Graduation,Yes,27712,161,1
+C0064,Male,No,1,Graduation,Yes,11150,9238,1
+C0065,Male,Yes,3+,Not Graduate,Yes,26281,0,1
+C0066,Female,No,3+,Graduation,Yes,5048,727,1
+C0067,Male,Yes,2,Not Graduate,Yes,22291,4938,1
+C0068,Male,Yes,3+,Not Graduate,No,23540,0,0
+C0069,Female,No,1,Not Graduate,No,21927,6711,0
+C0070,Male,Yes,1,Not Graduate,Yes,26044,0,1
+C0071,Male,No,1,Graduation,No,29883,6486,1
+C0072,Female,Yes,1,Not Graduate,Yes,13983,999,1
+C0073,Female,No,2,Graduation,No,11802,8172,1
+C0074,Male,Yes,3+,Graduation,No,8342,0,1
+C0075,Female,Yes,0,Not Graduate,No,7692,0,0
+C0076,Female,Yes,2,Graduation,Yes,25205,0,1
+C0077,Female,Yes,1,Not Graduate,No,3634,0,0
+C0078,Male,No,3+,Graduation,Yes,1936,0,0
+C0079,Female,No,0,Not Graduate,No,25565,4152,0
+C0080,Male,No,3+,Graduation,Yes,24683,7747,0
+C0081,Female,No,0,Not Graduate,Yes,26619,0,0
+C0082,Female,No,1,Not Graduate,No,29461,0,1
+C0083,Male,No,3+,Graduation,Yes,6241,0,1
+C0084,Female,No,2,Not Graduate,Yes,14962,14478,0
+C0085,Female,Yes,3+,Graduation,Yes,5458,2222,0
+C0086,Male,Yes,1,Graduation,Yes,2489,8167,0
+C0087,Male,Yes,1,Graduation,No,27374,9180,1
+C0088,Male,Yes,1,Graduation,Yes,14810,0,1
+C0089,Male,No,0,Not Graduate,No,26604,0,0
+C0090,Male,Yes,3+,Graduation,No,12982,0,0
+C0091,Female,No,0,Graduation,No,16153,0,1
+C0092,Male,Yes,0,Not Graduate,Yes,8944,5674,1
+C0093,Male,No,2,Not Graduate,No,13770,1944,1
+C0094,Female,Yes,3+,Not Graduate,No,19799,416,1
+C0095,Male,No,0,Graduation,No,9922,0,1
+C0096,Male,Yes,2,Graduation,No,8791,0,0
+C0097,Female,No,1,Graduation,No,11316,6500,0
+C0098,Female,No,3+,Graduation,No,2808,0,0
+C0099,Female,No,3+,Not Graduate,No,17329,7099,0
+C0100,Male,No,1,Not Graduate,No,15535,11949,1
+C0101,Female,Yes,2,Not Graduate,No,12440,0,1
+C0102,Male,No,2,Not Graduate,No,7659,14381,0
+C0103,Female,Yes,2,Graduation,Yes,6614,4719,0
+C0104,Male,Yes,3+,Graduation,No,12374,6331,0
+C0105,Male,No,2,Graduation,No,27523,11516,1
+C0106,Male,No,0,Graduation,Yes,4549,0,0
+C0107,Male,No,1,Not Graduate,Yes,15751,14830,1
+C0108,Female,Yes,2,Not Graduate,Yes,21525,0,1
+C0109,Male,No,3+,Graduation,No,25633,7686,1
+C0110,Female,No,1,Graduation,Yes,25616,0,1
+C0111,Male,No,2,Graduation,Yes,11274,0,1
+C0112,Female,No,3+,Not Graduate,No,18127,0,0
+C0113,Male,Yes,2,Graduation,Yes,11773,10435,1
+C0114,Female,No,0,Not Graduate,No,16824,0,0
+C0115,Female,Yes,1,Graduation,Yes,5706,0,0
+C0116,Male,Yes,3+,Graduation,Yes,14640,227,1
+C0117,Male,Yes,1,Not Graduate,No,9574,3373,1
+C0118,Male,No,1,Not Graduate,Yes,29767,0,0
+C0119,Female,No,2,Not Graduate,Yes,29794,0,1
+C0120,Female,Yes,1,Graduation,No,16502,3547,0
+C0121,Male,No,2,Not Graduate,Yes,6362,2651,1
+C0122,Male,Yes,2,Graduation,Yes,27358,13146,1
+C0123,Male,No,2,Not Graduate,Yes,27799,0,1
+C0124,Male,No,1,Not Graduate,Yes,21470,0,0
+C0125,Male,No,1,Not Graduate,Yes,4341,0,0
+C0126,Female,Yes,0,Graduation,Yes,24256,10454,1
+C0127,Male,Yes,3+,Not Graduate,No,1967,10589,0
+C0128,Male,Yes,2,Graduation,Yes,6551,0,1
+C0129,Female,No,1,Not Graduate,Yes,4803,0,0
+C0130,Male,Yes,1,Graduation,Yes,29370,0,0
+C0131,Female,Yes,0,Graduation,Yes,19136,12604,1
+C0132,Male,No,0,Not Graduate,Yes,12360,0,1
+C0133,Male,No,1,Graduation,No,2259,14724,0
+C0134,Female,Yes,1,Not Graduate,Yes,12146,3986,0
+C0135,Male,Yes,1,Not Graduate,No,12433,1335,1
+C0136,Female,Yes,0,Graduation,Yes,27556,3823,1
+C0137,Male,Yes,0,Graduation,Yes,14586,6683,1
+C0138,Male,No,0,Graduation,No,2452,13591,1
+C0139,Male,Yes,1,Graduation,No,17491,4564,0
+C0140,Female,Yes,3+,Graduation,No,25966,0,1
+C0141,Female,No,2,Graduation,No,25732,11231,0
+C0142,Male,No,3+,Graduation,Yes,21385,0,0
+C0143,Male,No,3+,Graduation,Yes,17128,0,0
+C0144,Female,Yes,2,Not Graduate,Yes,3630,4404,0
+C0145,Male,No,3+,Not Graduate,No,4119,0,0
+C0146,Male,No,1,Graduation,No,8992,1399,0
+C0147,Male,No,3+,Not Graduate,No,9786,2413,1
+C0148,Male,Yes,3+,Not Graduate,No,20247,0,1
+C0149,Male,Yes,1,Graduation,No,26523,11159,0
+C0150,Female,No,1,Not Graduate,No,16787,0,1
+C0151,Female,No,3+,Graduation,No,15970,0,0
+C0152,Female,Yes,3+,Graduation,Yes,19054,13259,0
+C0153,Male,No,3+,Not Graduate,Yes,2055,0,1
+C0154,Female,No,2,Not Graduate,No,2148,3083,0
+C0155,Female,No,0,Graduation,Yes,21348,0,1
+C0156,Male,Yes,2,Not Graduate,Yes,19439,0,0
+C0157,Female,Yes,3+,Graduation,Yes,12888,12711,1
+C0158,Male,No,1,Graduation,Yes,17111,5806,0
+C0159,Female,Yes,3+,Not Graduate,No,22598,10726,0
+C0160,Male,No,3+,Not Graduate,Yes,5238,0,1
+C0161,Female,Yes,1,Graduation,No,17786,0,0
+C0162,Male,No,0,Not Graduate,Yes,14208,0,1
+C0163,Male,Yes,0,Graduation,Yes,25116,12961,1
+C0164,Male,No,3+,Not Graduate,Yes,15475,0,1
+C0165,Male,No,0,Not Graduate,No,20969,0,0
+C0166,Female,No,1,Graduation,No,18597,0,0
+C0167,Male,No,2,Not Graduate,Yes,15564,0,1
+C0168,Male,No,0,Graduation,Yes,19499,507,0
+C0169,Female,No,0,Graduation,No,9586,0,0
+C0170,Female,No,3+,Graduation,No,5675,9822,0
+C0171,Male,No,1,Graduation,No,18129,10605,1
+C0172,Male,Yes,0,Graduation,No,2148,0,1
+C0173,Female,No,2,Not Graduate,No,26512,2687,0
+C0174,Male,Yes,1,Not Graduate,Yes,26290,14516,0
+C0175,Female,No,3+,Not Graduate,Yes,29352,13450,1
+C0176,Male,No,1,Graduation,Yes,29653,0,0
+C0177,Female,No,2,Graduation,Yes,25285,194,0
+C0178,Female,No,2,Graduation,Yes,17071,14070,1
+C0179,Male,Yes,1,Not Graduate,No,17515,7484,1
+C0180,Female,No,0,Graduation,Yes,11768,6511,1
+C0181,Female,Yes,3+,Graduation,No,6925,7607,1
+C0182,Female,No,0,Graduation,No,10855,0,0
+C0183,Male,Yes,1,Graduation,Yes,5630,9721,0
+C0184,Female,Yes,0,Graduation,No,19493,0,0
+C0185,Female,No,2,Graduation,No,9072,9884,1
+C0186,Female,No,0,Not Graduate,Yes,24933,0,0
+C0187,Male,Yes,0,Graduation,Yes,29630,0,1
+C0188,Female,Yes,2,Graduation,Yes,10397,3620,1
+C0189,Male,No,1,Graduation,No,7505,0,1
+C0190,Male,No,0,Graduation,No,1702,4970,1
+C0191,Male,Yes,2,Not Graduate,No,26105,454,1
+C0192,Female,No,2,Not Graduate,Yes,18966,10330,1
+C0193,Male,Yes,0,Graduation,No,19305,9026,0
+C0194,Male,No,0,Not Graduate,Yes,21151,3806,1
+C0195,Male,Yes,0,Not Graduate,No,1500,0,1
+C0196,Female,Yes,1,Graduation,No,12301,7305,0
+C0197,Female,No,1,Graduation,No,11782,0,1
+C0198,Female,Yes,0,Not Graduate,Yes,4459,10457,0
+C0199,Male,No,2,Not Graduate,No,13447,0,0
+C0200,Female,Yes,1,Graduation,Yes,15473,12898,1
+C0201,Female,No,0,Not Graduate,No,22991,9374,1
+C0202,Female,Yes,3+,Not Graduate,Yes,6154,6945,1
+C0203,Male,No,3+,Graduation,No,27896,3872,0
+C0204,Female,No,1,Graduation,No,17708,2112,1
+C0205,Male,Yes,2,Graduation,Yes,8265,1371,0
+C0206,Male,Yes,3+,Not Graduate,Yes,1966,8033,0
+C0207,Female,Yes,0,Graduation,No,4651,0,1
+C0208,Male,Yes,2,Not Graduate,Yes,26283,0,0
+C0209,Female,Yes,2,Not Graduate,Yes,4531,12810,0
+C0210,Female,Yes,0,Graduation,Yes,23955,0,1
+C0211,Male,No,1,Graduation,Yes,19866,0,1
+C0212,Female,Yes,0,Graduation,Yes,18401,10050,1
+C0213,Female,No,3+,Graduation,No,20664,0,0
+C0214,Male,No,2,Graduation,No,24219,1950,1
+C0215,Male,No,2,Graduation,No,15163,0,0
+C0216,Female,Yes,1,Not Graduate,No,5711,786,0
+C0217,Female,Yes,2,Graduation,No,16616,0,0
+C0218,Male,Yes,1,Not Graduate,No,26587,3362,1
+C0219,Male,No,1,Graduation,No,2704,0,0
+C0220,Male,No,2,Graduation,Yes,28526,0,1
+C0221,Female,No,2,Not Graduate,Yes,15634,11377,0
+C0222,Female,No,2,Graduation,Yes,11948,0,1
+C0223,Female,No,3+,Graduation,Yes,14514,0,1
+C0224,Female,Yes,2,Graduation,Yes,20660,4840,0
+C0225,Female,Yes,1,Graduation,Yes,9870,2645,1
+C0226,Female,Yes,1,Graduation,No,19924,0,0
+C0227,Female,Yes,2,Not Graduate,No,24782,3512,1
+C0228,Female,Yes,0,Graduation,No,21744,0,0
+C0229,Female,No,1,Graduation,No,15440,0,1
+C0230,Male,No,2,Not Graduate,Yes,14792,13669,0
+C0231,Male,No,1,Graduation,No,10466,0,0
+C0232,Female,No,2,Graduation,No,15329,0,1
+C0233,Female,No,0,Not Graduate,Yes,11888,0,1
+C0234,Male,No,0,Not Graduate,Yes,22520,12100,1
+C0235,Female,Yes,3+,Not Graduate,Yes,5504,0,0
+C0236,Female,No,0,Graduation,No,19024,0,1
+C0237,Female,No,2,Graduation,No,13237,0,0
+C0238,Female,No,3+,Graduation,Yes,2207,8418,0
+C0239,Female,Yes,1,Not Graduate,No,15010,0,1
+C0240,Female,No,2,Graduation,No,2100,0,0
+C0241,Female,Yes,2,Not Graduate,No,22169,11180,1
+C0242,Female,Yes,0,Not Graduate,Yes,3938,8346,1
+C0243,Male,No,1,Graduation,No,22937,0,0
+C0244,Female,Yes,3+,Not Graduate,Yes,25323,3418,0
+C0245,Male,Yes,0,Not Graduate,Yes,6998,6975,1
+C0246,Female,Yes,2,Graduation,No,28919,0,1
+C0247,Male,No,3+,Graduation,No,5269,0,1
+C0248,Male,Yes,1,Graduation,Yes,25384,5348,0
+C0249,Male,No,3+,Not Graduate,Yes,17033,0,1
+C0250,Male,Yes,3+,Not Graduate,Yes,28508,0,0
+C0251,Female,No,3+,Graduation,No,1856,0,0
+C0252,Female,Yes,2,Not Graduate,Yes,20781,0,1
+C0253,Female,No,2,Graduation,No,23676,0,1
+C0254,Male,No,3+,Graduation,Yes,18335,13505,0
+C0255,Male,Yes,1,Graduation,Yes,12330,0,1
+C0256,Female,Yes,1,Not Graduate,Yes,10696,5310,0
+C0257,Female,Yes,2,Graduation,No,22486,7957,1
+C0258,Female,Yes,2,Not Graduate,Yes,16199,301,1
+C0259,Male,No,0,Not Graduate,No,11515,12510,1
+C0260,Female,No,3+,Graduation,No,25486,0,0
+C0261,Male,Yes,3+,Not Graduate,No,3087,0,0
+C0262,Female,Yes,0,Graduation,Yes,20862,5662,0
+C0263,Female,No,1,Not Graduate,No,5144,0,1
+C0264,Male,No,2,Graduation,Yes,21620,3562,0
+C0265,Male,Yes,1,Not Graduate,Yes,17248,8084,1
+C0266,Female,Yes,1,Graduation,No,14820,0,1
+C0267,Female,No,1,Graduation,Yes,16962,0,1
+C0268,Male,No,3+,Graduation,No,2037,0,1
+C0269,Male,No,0,Graduation,No,6483,0,1
+C0270,Female,Yes,3+,Not Graduate,No,15566,0,1
+C0271,Male,Yes,1,Not Graduate,Yes,3558,0,0
+C0272,Male,Yes,1,Not Graduate,Yes,11353,14217,0
+C0273,Female,No,1,Not Graduate,No,7108,8020,0
+C0274,Female,Yes,0,Not Graduate,No,11810,0,1
+C0275,Female,Yes,2,Graduation,Yes,25388,0,0
+C0276,Male,Yes,1,Not Graduate,Yes,19189,0,0
+C0277,Male,Yes,1,Graduation,No,11077,0,0
+C0278,Male,No,0,Graduation,Yes,3564,0,0
+C0279,Male,Yes,3+,Not Graduate,Yes,17242,7426,1
+C0280,Male,No,0,Graduation,No,9701,9624,0
+C0281,Male,Yes,0,Graduation,Yes,10201,0,0
+C0282,Male,Yes,3+,Graduation,No,14849,11841,0
+C0283,Female,Yes,3+,Not Graduate,Yes,29232,5664,0
+C0284,Female,Yes,1,Not Graduate,Yes,6529,0,0
+C0285,Female,Yes,0,Not Graduate,Yes,23503,8549,0
+C0286,Male,No,2,Not Graduate,Yes,19898,9160,0
+C0287,Male,No,2,Not Graduate,Yes,17999,0,0
+C0288,Male,No,0,Not Graduate,No,29555,753,1
+C0289,Male,No,0,Graduation,Yes,21507,14232,0
+C0290,Male,No,3+,Graduation,No,2519,3042,0
+C0291,Male,Yes,1,Graduation,No,3057,0,0
+C0292,Female,No,1,Graduation,Yes,23915,12433,1
+C0293,Male,No,0,Graduation,Yes,3312,8369,1
+C0294,Male,Yes,3+,Not Graduate,Yes,21833,0,1
+C0295,Male,Yes,3+,Graduation,Yes,27556,6415,1
+C0296,Female,Yes,1,Graduation,No,15586,4468,1
+C0297,Male,No,3+,Not Graduate,Yes,3401,0,1
+C0298,Male,Yes,2,Graduation,No,13107,8589,1
+C0299,Female,No,1,Graduation,Yes,2184,0,1
+C0300,Male,No,0,Not Graduate,Yes,25068,323,1
+C0301,Female,No,3+,Not Graduate,Yes,8756,2111,1
+C0302,Male,No,3+,Not Graduate,Yes,26388,5875,0
+C0303,Male,No,2,Graduation,No,2706,9812,0
+C0304,Female,Yes,3+,Not Graduate,No,8429,11056,1
+C0305,Female,Yes,0,Graduation,No,18170,0,0
+C0306,Female,No,1,Graduation,No,6185,6933,1
+C0307,Male,No,3+,Graduation,Yes,21270,0,0
+C0308,Male,No,1,Graduation,Yes,25371,0,1
+C0309,Male,No,0,Not Graduate,No,15301,0,1
+C0310,Female,Yes,2,Not Graduate,No,26342,2995,0
+C0311,Female,No,0,Not Graduate,Yes,7487,256,1
+C0312,Female,No,1,Not Graduate,No,24350,4260,0
+C0313,Male,No,1,Graduation,Yes,21725,14163,0
+C0314,Male,Yes,3+,Not Graduate,Yes,13375,7768,0
+C0315,Female,No,2,Not Graduate,No,8421,0,1
+C0316,Male,Yes,2,Not Graduate,No,25042,14817,1
+C0317,Male,Yes,0,Not Graduate,No,10142,0,0
+C0318,Male,No,1,Graduation,Yes,22755,6917,0
+C0319,Female,No,0,Graduation,Yes,8731,0,1
+C0320,Male,Yes,1,Not Graduate,No,29665,7788,1
+C0321,Male,Yes,0,Graduation,Yes,7399,6422,1
+C0322,Male,No,3+,Not Graduate,Yes,7071,0,0
+C0323,Female,No,0,Graduation,No,11189,0,1
+C0324,Female,No,0,Not Graduate,Yes,5265,0,0
+C0325,Female,Yes,2,Graduation,No,3913,13556,0
+C0326,Female,Yes,2,Not Graduate,No,2328,4900,0
+C0327,Female,Yes,0,Graduation,Yes,23943,753,0
+C0328,Male,Yes,3+,Graduation,Yes,3433,0,1
+C0329,Female,Yes,0,Not Graduate,Yes,9552,0,1
+C0330,Female,Yes,2,Graduation,No,3113,8499,1
+C0331,Female,Yes,3+,Graduation,No,21414,9024,0
+C0332,Male,No,0,Graduation,No,25777,6086,0
+C0333,Female,Yes,0,Graduation,Yes,2534,0,1
+C0334,Female,No,2,Not Graduate,Yes,7010,3398,1
+C0335,Male,Yes,1,Not Graduate,No,20106,9419,0
+C0336,Male,Yes,2,Not Graduate,No,27494,0,1
+C0337,Female,Yes,3+,Graduation,Yes,13128,0,1
+C0338,Male,No,0,Graduation,No,22219,0,1
+C0339,Female,Yes,0,Graduation,No,11680,2697,1
+C0340,Male,No,3+,Not Graduate,Yes,4426,0,1
+C0341,Female,No,0,Graduation,Yes,18741,0,1
+C0342,Male,Yes,2,Not Graduate,No,22074,1371,0
+C0343,Male,No,3+,Graduation,Yes,6120,5322,0
+C0344,Female,Yes,3+,Not Graduate,No,23100,0,0
+C0345,Female,No,0,Not Graduate,Yes,3955,0,1
+C0346,Male,No,1,Graduation,No,3176,9908,1
+C0347,Male,No,1,Not Graduate,No,17988,10913,1
+C0348,Male,Yes,2,Graduation,Yes,25383,4208,0
+C0349,Female,Yes,3+,Not Graduate,No,24241,13523,0
+C0350,Male,Yes,3+,Not Graduate,No,24860,0,0
+C0351,Female,Yes,1,Graduation,Yes,14901,2083,1
+C0352,Male,No,2,Graduation,No,9649,0,1
+C0353,Female,No,2,Not Graduate,No,17829,8032,1
+C0354,Male,Yes,1,Graduation,Yes,29898,0,0
+C0355,Female,Yes,0,Graduation,Yes,11742,0,0
+C0356,Female,No,1,Graduation,No,29384,0,0
+C0357,Female,No,1,Graduation,No,16076,0,1
+C0358,Male,No,3+,Graduation,No,22724,2662,1
+C0359,Female,No,3+,Not Graduate,Yes,15324,0,1
+C0360,Male,Yes,0,Not Graduate,No,7866,0,0
+C0361,Female,No,3+,Graduation,No,9281,1788,1
+C0362,Male,Yes,0,Not Graduate,Yes,6985,6006,0
+C0363,Female,Yes,2,Graduation,No,7522,6686,1
+C0364,Female,Yes,3+,Not Graduate,Yes,29055,9758,1
+C0365,Female,No,3+,Not Graduate,Yes,19640,7782,1
+C0366,Female,No,3+,Not Graduate,No,14311,0,1
+C0367,Female,No,1,Graduation,No,12922,8290,1
+C0368,Female,No,2,Graduation,No,2746,0,0
+C0369,Female,No,2,Graduation,No,15901,0,1
+C0370,Female,No,0,Graduation,No,5308,0,1
+C0371,Female,Yes,2,Not Graduate,No,10083,0,0
+C0372,Female,No,0,Graduation,No,22287,0,0
+C0373,Male,No,0,Graduation,No,7362,0,0
+C0374,Female,No,2,Not Graduate,No,7638,0,1
+C0375,Female,Yes,3+,Not Graduate,No,11073,0,1
+C0376,Male,No,3+,Not Graduate,Yes,29535,8020,0
+C0377,Female,No,3+,Not Graduate,No,21823,0,1
+C0378,Male,No,3+,Graduation,Yes,11731,8616,0
+C0379,Female,No,2,Not Graduate,No,22143,0,1
+C0380,Male,No,1,Graduation,Yes,2990,10541,1
+C0381,Male,Yes,3+,Graduation,No,28415,0,0
+C0382,Female,Yes,1,Graduation,No,14028,0,0
+C0383,Male,Yes,0,Not Graduate,No,5113,0,0
+C0384,Female,No,3+,Not Graduate,No,28785,0,1
+C0385,Male,Yes,3+,Graduation,No,25957,9994,1
+C0386,Female,Yes,0,Graduation,Yes,24346,1736,1
+C0387,Male,No,2,Not Graduate,No,5648,0,0
+C0388,Female,No,0,Graduation,Yes,14829,9973,0
+C0389,Female,No,0,Not Graduate,Yes,25476,0,0
+C0390,Female,Yes,0,Graduation,No,6918,5217,0
+C0391,Female,No,1,Not Graduate,No,3842,7948,1
+C0392,Male,Yes,0,Not Graduate,Yes,13874,0,0
+C0393,Male,Yes,2,Graduation,Yes,23988,1829,1
+C0394,Female,No,2,Not Graduate,Yes,24846,0,0
+C0395,Male,No,3+,Graduation,No,21368,4401,0
+C0396,Female,Yes,1,Not Graduate,Yes,3644,7444,0
+C0397,Female,No,3+,Graduation,Yes,16108,3024,1
+C0398,Female,Yes,1,Graduation,Yes,4112,0,1
+C0399,Female,No,2,Not Graduate,No,24968,11301,0
+C0400,Male,No,0,Not Graduate,No,4113,0,1
+C0401,Male,No,2,Not Graduate,No,18057,0,1
+C0402,Female,No,1,Graduation,No,13231,0,1
+C0403,Male,Yes,0,Graduation,Yes,13203,8786,1
+C0404,Female,Yes,0,Graduation,No,26634,10276,0
+C0405,Female,No,3+,Not Graduate,Yes,19158,7168,1
+C0406,Female,No,1,Not Graduate,No,18436,0,0
+C0407,Male,No,3+,Not Graduate,No,29226,5640,1
+C0408,Male,No,2,Graduation,Yes,17338,0,0
+C0409,Female,No,3+,Not Graduate,No,3368,0,1
+C0410,Female,Yes,0,Graduation,No,2896,10599,1
+C0411,Female,Yes,3+,Graduation,No,8796,0,0
+C0412,Male,Yes,2,Not Graduate,Yes,6226,0,1
+C0413,Male,Yes,1,Not Graduate,No,15754,3337,0
+C0414,Male,No,0,Graduation,Yes,19303,14734,0
+C0415,Female,Yes,3+,Graduation,Yes,28689,10059,1
+C0416,Female,Yes,3+,Not Graduate,No,6508,0,1
+C0417,Male,Yes,3+,Graduation,Yes,24076,0,0
+C0418,Female,No,0,Not Graduate,No,1818,0,0
+C0419,Female,No,3+,Graduation,Yes,1600,14498,1
+C0420,Male,Yes,3+,Graduation,Yes,29270,7732,1
+C0421,Male,No,3+,Not Graduate,No,3324,0,0
+C0422,Male,No,3+,Graduation,Yes,20923,0,0
+C0423,Male,No,1,Graduation,Yes,29236,0,0
+C0424,Female,No,3+,Not Graduate,No,22382,239,0
+C0425,Female,Yes,0,Not Graduate,Yes,2205,0,0
+C0426,Female,Yes,1,Graduation,No,17069,0,1
+C0427,Female,No,1,Graduation,No,18156,5054,0
+C0428,Female,No,2,Graduation,Yes,15048,11523,0
+C0429,Female,Yes,1,Graduation,Yes,19053,0,1
+C0430,Male,No,3+,Not Graduate,No,7930,0,1
+C0431,Female,Yes,3+,Graduation,No,9672,2391,0
+C0432,Male,Yes,1,Graduation,Yes,22410,6112,0
+C0433,Female,No,3+,Not Graduate,No,15837,0,1
+C0434,Female,Yes,1,Graduation,No,16969,6900,0
+C0435,Male,Yes,0,Graduation,Yes,5573,0,1
+C0436,Female,Yes,2,Graduation,Yes,4858,2633,1
+C0437,Female,Yes,3+,Graduation,No,15483,0,0
+C0438,Female,No,0,Graduation,Yes,23903,0,0
+C0439,Female,Yes,1,Not Graduate,Yes,22279,0,1
+C0440,Female,Yes,1,Not Graduate,No,29801,0,0
+C0441,Male,Yes,2,Not Graduate,No,16423,8297,1
+C0442,Male,Yes,0,Graduation,No,13121,922,1
+C0443,Female,No,3+,Graduation,Yes,15040,4732,0
+C0444,Female,Yes,0,Not Graduate,Yes,23762,2353,1
+C0445,Male,Yes,3+,Graduation,Yes,26891,0,0
+C0446,Male,No,1,Graduation,Yes,18120,0,1
+C0447,Male,Yes,3+,Graduation,Yes,25289,11123,0
+C0448,Male,No,3+,Graduation,Yes,26423,0,0
+C0449,Female,No,2,Graduation,Yes,8291,0,1
+C0450,Male,No,1,Not Graduate,Yes,12900,0,0
+C0451,Female,No,1,Graduation,No,15254,2031,1
+C0452,Female,Yes,0,Not Graduate,No,19728,0,1
+C0453,Male,No,2,Graduation,No,4819,0,1
+C0454,Female,No,2,Not Graduate,No,26064,11218,0
+C0455,Female,Yes,3+,Graduation,No,21717,0,1
+C0456,Male,No,1,Graduation,Yes,7128,12936,1
+C0457,Female,Yes,3+,Not Graduate,No,28133,0,1
+C0458,Male,Yes,0,Graduation,Yes,10525,0,1
+C0459,Male,Yes,2,Graduation,Yes,9880,0,0
+C0460,Female,Yes,0,Graduation,No,15715,0,0
+C0461,Male,No,1,Graduation,Yes,12962,10769,1
+C0462,Female,Yes,2,Not Graduate,Yes,14884,5197,0
+C0463,Male,Yes,0,Graduation,Yes,28909,0,0
+C0464,Female,No,2,Graduation,Yes,11254,0,1
+C0465,Male,Yes,3+,Not Graduate,No,20169,13331,0
+C0466,Male,No,2,Graduation,No,3134,6606,0
+C0467,Female,Yes,2,Not Graduate,No,11287,0,0
+C0468,Male,Yes,2,Graduation,No,2462,0,0
+C0469,Male,No,3+,Not Graduate,Yes,6237,2100,0
+C0470,Male,No,3+,Graduation,Yes,27906,0,1
+C0471,Male,No,0,Not Graduate,No,12440,436,1
+C0472,Female,No,3+,Graduation,No,6355,0,1
+C0473,Female,Yes,0,Not Graduate,No,26214,13957,0
+C0474,Male,No,2,Graduation,Yes,17210,0,1
+C0475,Female,Yes,1,Not Graduate,Yes,15333,0,0
+C0476,Male,Yes,3+,Not Graduate,Yes,27797,56,0
+C0477,Female,Yes,2,Not Graduate,Yes,26287,0,1
+C0478,Male,No,1,Graduation,No,19410,14967,1
+C0479,Female,Yes,3+,Graduation,Yes,9070,10552,0
+C0480,Female,Yes,0,Not Graduate,Yes,2425,0,1
+C0481,Male,Yes,2,Not Graduate,Yes,26874,4448,1
+C0482,Male,No,1,Not Graduate,Yes,8150,0,0
+C0483,Male,Yes,1,Not Graduate,Yes,12129,0,0
+C0484,Male,No,0,Graduation,Yes,18764,2479,1
+C0485,Female,Yes,0,Graduation,No,13666,0,0
+C0486,Female,No,1,Graduation,Yes,5269,14168,0
+C0487,Female,No,0,Not Graduate,Yes,23770,5194,0
+C0488,Female,Yes,3+,Not Graduate,Yes,20975,12698,0
+C0489,Female,No,2,Not Graduate,No,27643,10497,0
+C0490,Male,Yes,2,Not Graduate,Yes,11555,5753,1
+C0491,Male,No,2,Not Graduate,No,26881,0,1
+C0492,Male,No,3+,Graduation,No,11925,0,1
+C0493,Female,Yes,2,Not Graduate,No,14737,0,1
+C0494,Male,No,2,Graduation,No,15887,0,1
+C0495,Male,No,1,Not Graduate,Yes,12555,14101,1
+C0496,Female,No,2,Graduation,No,3305,13600,1
+C0497,Male,Yes,2,Not Graduate,Yes,6737,3353,1
+C0498,Male,Yes,0,Graduation,Yes,12215,0,0
+C0499,Female,No,2,Not Graduate,No,23856,0,0
+C0500,Female,Yes,0,Not Graduate,No,6621,0,0
