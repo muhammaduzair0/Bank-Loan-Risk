@@ -43,3 +43,18 @@ for cid in customer_ids:
     })
 
 customers_df = pd.DataFrame(customers)
+
+# 2) Loans (1:1 mapping to customers for simplicity - each customers one Loan)
+
+loans = []
+for lid, cid in zip(loan_ids, customer_ids):
+    # loan amount in thousands ( so 100 -> 100k)
+    # base on income make realistic: loan ~ (0.5 to 0.6) * monthly in thousands
+    cust = customers_df.loc[customers_df['customer_id'] == cid].iloc[0]
+    base = max(50, int(np.clip(random.gauss(200, 80), 50, 700)))
+    # vary by applicant income a little
+    loan_amount = base
+    loan_term = random.choice(loan_terms)
+    credit_history = random.choices(credit_hist, weights=[0.2, 0.8])[0]
+    prop = random.choices(property_area, weights=[0.5, 0.3, 0.2])[0]
+
