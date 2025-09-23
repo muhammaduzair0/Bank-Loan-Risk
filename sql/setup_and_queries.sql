@@ -15,3 +15,16 @@ CREATE TABLE customers(
     loan_history_flag BIT
 )
 
+-- Loans table
+CREATE TABLE loans(
+    loan_id VARCHAR(10) PRIMARY KEY,
+    customer_id VARCHAR(10),
+    loan_amount INT,
+    loan_amount_term INT,
+    credit_history BIT,
+    property_area VARCHAR(20),
+    loan_status CHAR(1),
+    defaulted CHAR(1),
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+GO
