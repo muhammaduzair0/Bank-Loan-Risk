@@ -68,3 +68,10 @@ SELECT ROUND(100.0*SUM(CASE WHEN defaulted = 'Y' THEN 1 ELSE 0 END) /
     NULLIF(SUM(CASE WHEN loan_status = 'Y' THEN 1 ELSE 0 END),0),2) AS default_pct_of_approved 
 FROM loans;
 
+-- 3) Approval by Property Area
+SELECT property_area,
+       ROUND(100.0*SUM(CASE WHEN loan_status = 'Y' THEN 1 ELSE 0 END) /COUNT(*),2) AS approval_pct
+FROM loans
+GROUP BY property_area
+ORDER BY approval_pct DESC;
+
