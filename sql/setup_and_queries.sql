@@ -27,4 +27,27 @@ CREATE TABLE loans(
     defaulted CHAR(1),
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
-GO
+
+
+-- BULK INSERT CSVs
+
+BULK INSERT customers
+FROM 'F:\Data Analytics\Projects\Bank-Loan-Risk\data\customers.csv'
+WITH (
+    FIRST_ROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    TABLOCK,
+    FORMAT = 'CSV'
+)
+
+BULK INSERT loans
+FROM 'F:\Data Analytics\Projects\Bank-Loan-Risk\data\loans.csv'
+WITH (
+    FIRST_ROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    TABLOCK,
+    FORMAT = 'CSV'
+)
+
