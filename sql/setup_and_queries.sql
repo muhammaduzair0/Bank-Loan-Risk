@@ -51,3 +51,8 @@ WITH (
     FORMAT = 'CSV'
 )
 
+-- Quick Counts
+
+SELECT 'Customers' AS what, COUNT(*) AS cnt FROM customers;
+SELECT 'Loans' AS what, COUNT(*) AS cnt FROM loans;
+
