@@ -75,3 +75,14 @@ FROM loans
 GROUP BY property_area
 ORDER BY approval_pct DESC;
 
+-- 4) Default by Education
+SELECT c.education,
+       ROUND(
+            100.0 * SUM(CASE WHEN l.defaulted = 'Y' THEN 1 ELSE 0 END) /
+            NULLIF(SUM(CASE WHEN l.loan_status = 'Y' THEN 1 ELSE 0 END),0),
+        2) AS default_pct
+FROM loans l
+JOIN customers c ON l.customer_id = c.customer_id
+GROUP BY c.education
+ORDER BY default_pct DESC;
+
