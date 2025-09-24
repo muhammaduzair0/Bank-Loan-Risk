@@ -56,3 +56,15 @@ WITH (
 SELECT 'Customers' AS what, COUNT(*) AS cnt FROM customers;
 SELECT 'Loans' AS what, COUNT(*) AS cnt FROM loans;
 
+-- ANALYTICAL QUERIES
+
+-- 1) Approval Rate
+SELECT ROUND(100.0*SUM(CASE WHEN loan_status='Y' THEN 1 ELSE 0 END) / 
+    COUNT(*),2) AS approval_pct
+FROM loans;
+
+-- 2) Default Rate (of approved loans)
+SELECT ROUND(100.0*SUM(CASE WHEN defaulted = 'Y' THEN 1 ELSE 0 END) / 
+    NULLIF(SUM(CASE WHEN loan_status = 'Y' THEN 1 ELSE 0 END),0),2) AS default_pct_of_approved 
+FROM loans;
+
