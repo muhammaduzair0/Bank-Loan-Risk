@@ -86,3 +86,8 @@ JOIN customers c ON l.customer_id = c.customer_id
 GROUP BY c.education
 ORDER BY default_pct DESC;
 
+-- 5) Avg Loan and avg applicant income
+SELECT ROUND(AVG(l.loan_amount),2) AS avg_loan_thousands,
+        ROUND(AVG(c.applicant_income), 2) AS avg_income
+FROM loans l
+JOIN customers c ON l.customer_id = c.customer_id
