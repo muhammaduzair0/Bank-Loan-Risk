@@ -37,6 +37,7 @@ WITH (
     FIRST_ROW = 2,
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '0x0a',
+    ROWTERMINATOR = '\n',
     TABLOCK,
     FORMAT = 'CSV'
 )
@@ -47,6 +48,7 @@ WITH (
     FIRST_ROW = 2,
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '0x0a',
+    ROWTERMINATOR = '\n',
     TABLOCK,
     FORMAT = 'CSV'
 )
@@ -90,4 +92,5 @@ ORDER BY default_pct DESC;
 SELECT ROUND(AVG(l.loan_amount),2) AS avg_loan_thousands,
         ROUND(AVG(c.applicant_income), 2) AS avg_income
 FROM loans l
-JOIN customers c ON l.customer_id = c.customer_id
+JOIN customers c ON l.customer_id = c.customer_idJOIN customers c ON l.customer_id = c.customer_id
+
