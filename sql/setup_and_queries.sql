@@ -122,4 +122,14 @@ JOIN customers c on l.customer_id = c.customer_id
 WHERE l.defaulted = 'Y'
 ORDER BY l.loan_amount DESC;
 
+-- 9) Cohort: new vs repeat loans (if multiple loans per customer)
+SELECT loans_count, COUNT(*) AS customers
+FROM (
+    SELECT customer_id, COUNT(*) AS loans_count
+    FROM loans
+    GROUP BY customer_id
+) x
+GROUP BY loans_count
+ORDER BY loans_count;
+
 
