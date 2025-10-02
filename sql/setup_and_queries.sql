@@ -132,4 +132,18 @@ FROM (
 GROUP BY loans_count
 ORDER BY loans_count;
 
+-- 10) Window: rank top loan amount
+SELECT TOP 20
+       loan_id, customer_id, loan_amount,
+       RANK() OVER (ORDER BY loan_amount DESC) AS loan_rank
+FROM loans
+ORDER BY loan_rank;
+
+-- 11) Payment-risk heuristic: high loan/income ratio
+SELECT TOP 30
+       l.loan_id, l.customer_id, l.loan_amount, c.applicant_income,
+       ROUND(CAST((l.loan_amount*1000.0) AS FLOAT) / NULLIF(c.applicant_income, 0), 2) AS loan_to_income_ration
+FROM loans l
+JOIN customers c ON l.customer_id = c.customer_id
+ORDER BY loan_to_income_ration DESC;
 
