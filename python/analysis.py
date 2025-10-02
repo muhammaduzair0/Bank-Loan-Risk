@@ -59,3 +59,29 @@ print("\nDefault rate by education:\n", by_education)
 df['defaulted_flag'] = df['defaulted'].map({'Y': 1, 'N': 0})
 df['approved_flag'] = df['loan_status'].map({'Y': 1, 'N': 0})
 
+# ==================
+# 5. Plots
+# ==================
+plt.figure(figsize=(8,5))
+df['property_area'].value_counts().plot(kind='bar')
+plt.title('Loan Applications by Property Area')
+plt.ylabel('Count')
+plt.savefig('../outputs/loans_by_area.png')
+plt.close()
+
+plt.figure(figsize=(8,5))
+df.groupby('education')['defaulted_flag'].mean().plot(kind='bar', color='orange')
+plt.title('Default Rate by Education')
+plt.ylabel('Default %')
+plt.savefig('../outputs/default_by_education.png')
+plt.close()
+
+plt.figure(figsize=(8,5))
+df['loan_amount'].hist(bins=20)
+plt.title('Loan Amount Distribution')
+plt.xlabel('Loan Amount')
+plt.ylabel('Frequency')
+plt.savefig('../outputs/loans_distribution.png')
+plt.close()
+
+
