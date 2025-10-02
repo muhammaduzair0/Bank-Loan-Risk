@@ -44,3 +44,14 @@ print('Average loan:', round(avg_loan, 2))
 print('Average income:', round(avg_income, 2))
 
 
+# ==================
+# 4. Group Insights
+# ==================
+
+by_property = df.groupby('property_area')['loan_status'].apply(lambda x: (x=='Y').mean()*100)
+print("\nApproval rate by property area:\n", by_property)
+
+by_education = df.groupby('education')['defaulted'].apply(lambda x: (x=='Y').mean()*100)
+print("\nDefault rate by education:\n", by_education)
+
+
