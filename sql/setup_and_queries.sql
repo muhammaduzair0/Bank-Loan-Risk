@@ -36,7 +36,6 @@ FROM 'F:\Data Analytics\Projects\Bank-Loan-Risk\data\customers.csv'
 WITH (
     FIRST_ROW = 2,
     FIELDTERMINATOR = ',',
-    ROWTERMINATOR = '0x0a',
     ROWTERMINATOR = '\n',
     TABLOCK,
     FORMAT = 'CSV'
@@ -47,7 +46,6 @@ FROM 'F:\Data Analytics\Projects\Bank-Loan-Risk\data\loans.csv'
 WITH (
     FIRST_ROW = 2,
     FIELDTERMINATOR = ',',
-    ROWTERMINATOR = '0x0a',
     ROWTERMINATOR = '\n',
     TABLOCK,
     FORMAT = 'CSV'
@@ -92,7 +90,6 @@ ORDER BY default_pct DESC;
 SELECT ROUND(AVG(l.loan_amount),2) AS avg_loan_thousands,
         ROUND(AVG(c.applicant_income), 2) AS avg_income
 FROM loans l
-JOIN customers c ON l.customer_id = c.customer_idJOIN customers c ON l.customer_id = c.customer_id
 JOIN customers c ON l.customer_id = c.customer_id
 
 -- 6) Risk segments (gender/married/dependents)
@@ -147,3 +144,9 @@ FROM loans l
 JOIN customers c ON l.customer_id = c.customer_id
 ORDER BY loan_to_income_ration DESC;
 
+-- 12) Approval rate by credit_history
+SELECT credit_history,
+       ROUND(100.0*SUM(CASE WHEN loan_status = 'Y' THEN 1 ELSE 0 END)/COUNT(*), 2) AS approval_pct
+FROM loans
+GROUP BY credit_history
+ORDER BY credit_history DESC;
