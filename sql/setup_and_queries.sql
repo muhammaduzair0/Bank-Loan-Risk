@@ -93,4 +93,13 @@ SELECT ROUND(AVG(l.loan_amount),2) AS avg_loan_thousands,
         ROUND(AVG(c.applicant_income), 2) AS avg_income
 FROM loans l
 JOIN customers c ON l.customer_id = c.customer_idJOIN customers c ON l.customer_id = c.customer_id
+-- 6) Risk segments (gender/married/dependents)
+SELECT c.gender, c.married, c.dependents,
+       ROUND(100.0*SUM(CASE WHEN l.defaulted = 'Y' THEN 1 ELSE 0 END)/
+       NULLIF(SUM(CASE WHEN l.loan_status ='Y' THEN 1 ELSE 0 END),0),2) AS default_pct
+from loans l
+JOIN customers c ON l.customer_id = c.customer_id
+GROUP BY c.gender, c.married, c.dependents
+ORDER BY default_pct DESC
+
 
