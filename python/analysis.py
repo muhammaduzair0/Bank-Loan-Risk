@@ -28,3 +28,19 @@ df = loans.merge(customers, on='customer_id', how='left')
 
 print ("Merged dataset shape:", df.shape)
 
+# ==================
+# 3. KPIs 
+# ==================
+total_loans = len(df)
+approval_rate = round((df['loan_status'].eq('Y').mean())*100,2)
+default_rate = round((df.query("loan_status == 'Y'")['defaulted'].eq('Y').mean())*100,2)
+avg_loan = df['loan_amount'].mean()
+avg_income = df['applicant_income'].mean()
+
+print('Total loans:', total_loans)
+print('Approval rate %:', approval_rate)
+print('Default rate % (approved only):', default_rate)
+print('Average loan:', round(avg_loan, 2))
+print('Average income:', round(avg_income, 2))
+
+
