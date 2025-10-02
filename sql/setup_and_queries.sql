@@ -112,4 +112,14 @@ FROM loans
 GROUP BY loan_amount_term
 ORDER BY loan_amount_term
 
+-- 8) Top risky customers (by loan amount & default flag)
+SELECT TOP 30
+       l.loan_id, l.customer_id, l.loan_amount, l.loan_amount_term,
+       l.credit_history, l.property_area, l.loan_status, l.defaulted,
+       c.applicant_income
+FROM loans l
+JOIN customers c on l.customer_id = c.customer_id
+WHERE l.defaulted = 'Y'
+ORDER BY l.loan_amount DESC;
+
 
