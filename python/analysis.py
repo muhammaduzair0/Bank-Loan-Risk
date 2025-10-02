@@ -55,3 +55,7 @@ by_education = df.groupby('education')['defaulted'].apply(lambda x: (x=='Y').mea
 print("\nDefault rate by education:\n", by_education)
 
 
+# Convert Y/N columns to numeric (1=Yes, 0=No)
+df['defaulted_flag'] = df['defaulted'].map({'Y': 1, 'N': 0})
+df['approved_flag'] = df['loan_status'].map({'Y': 1, 'N': 0})
+
