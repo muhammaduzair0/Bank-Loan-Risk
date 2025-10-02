@@ -85,3 +85,9 @@ plt.savefig('../outputs/loans_distribution.png')
 plt.close()
 
 
+# ==================
+# 6. Export Clean File
+# ==================
+df.to_csv('../data/clean_loans.csv', index=False)
+print("✅ Clean dataset exported to data/clean_loans.csv")
+
